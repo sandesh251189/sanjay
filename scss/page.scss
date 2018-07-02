@@ -1,0 +1,49 @@
+.wrapper{
+  background: $white-color;
+}
+.logo{
+  width:175px;
+  height:52px;
+  margin:0 auto;
+  display:block;
+  padding:10px;
+}
+.points{
+  margin-left:20px;
+  font-size:15px;
+  color:$green-color;
+}
+.page-title{
+  font-size:25px;
+  margin-top:20px;
+}
+.card{
+  margin-bottom:20px;
+}
+.card-header{
+  @include font-open-sans;
+  font-size:15px;
+  background-color: $primary-color;
+  color:$white-color;
+
+}
+.form-check{
+margin-bottom:5px;
+}
+ .form-check label{
+  @include font-open-sans;
+  font-size:15px;
+}
+.list-style-none{
+  list-style-type: none;
+}
+.warning-msg{
+  color:red
+}
+.thanks-msg{
+  font-size:20px;
+  margin-top:30px;
+}
+.thanks-msg span{
+  display:block
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 12px;
+  color: #333;
+  background-image: url("../images/bg.png");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.wrapper {
+  background: #ffffff; }
+
+.logo {
+  width: 175px;
+  height: 52px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px; }
+
+.points {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #00831d; }
+
+.page-title {
+  font-size: 25px;
+  margin-top: 20px; }
+
+.card {
+  margin-bottom: 20px; }
+
+.card-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  background-color: #26485b;
+  color: #ffffff; }
+
+.form-check {
+  margin-bottom: 5px; }
+
+.form-check label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; }
+
+.list-style-none {
+  list-style-type: none; }
+
+.warning-msg {
+  color: red; }
+
+.thanks-msg {
+  font-size: 20px;
+  margin-top: 30px; }
+
+.thanks-msg span {
+  display: block; }
